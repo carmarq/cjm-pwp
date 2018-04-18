@@ -6,10 +6,17 @@
 	</head>
 	<body>
 		<h1>Purpose, Audience, Goal</h1>
-		<p>Purpose: I would like for my website to be a gallery for graphic design
-		and for poetry.</p>
-		<p>Audience: The audience would be potential employers and professional peers.</p>
-		<p>Goal: My goal for this project is to serve as a gallery to demonstrate my skills
-		in web development, as well as to showcase my personal interests.</p>
+		<p>Purpose: I would like for my website to be a gallery for graphic design and for poetry.</p>
+		<p>Audience: The site is designed with a casual audience in mind. My target audience still includes the professional web development community, as well as recruiters.</p>
+		<p>Goal: My primary goal for this project is for it to serve as a gallery for my skills in web development. My secondary goal is to promote art.</p>
+		<h2>Persona</h2>
+	`	<br>
+		<p>Name:Gordon Gallegos</p>
+		<p>Age:42</p>
+		<p>Profession: Co-Founder of a few businesses: a horticulture business, a pub, and other side ventures. He needs someone to help manage his current websites</p>
+		<p>Technology Used: MacBook Pro 2013, and an iPhone 7</p>
+		<p>Behaviors/Attitudes:</p>
+		<p>Scenario:</p>
+		<p>Frustrations:</p>
 	</body>
 	</html>
