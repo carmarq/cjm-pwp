@@ -10,16 +10,12 @@
 		<p>Audience: The site is designed with a people who want to know more about me and my skills in mind. My target audience includes the professional web development community, as well as recruiters, and clients.</p>
 		<p>Goal: My primary goal for this project is for it to serve as a gallery for my skills in web development and in turn acquire work.</p>
 		<h2>Persona</h2>
-		<p>Name:Gordon Gallegos</p>
+		<p>Name:Gloria Gallegos</p>
 		<p>Age: 42</p>
-		<p>Profession: Co-Founder of a few businesses: a horticulture business, a sports bar, and other side ventures. He needs someone to help manage his current websites.</p>
+		<p>Profession: Gloria is an I.T. recruiter, and works for a smaller, technology business that is new to town.</p>
 		<p>Technology Used: MacBook Pro 2013 (current OS), and an iPhone 6s Plus on a 4g unlimited network</p>
-		<p>Behaviors/Attitudes: Having to manage many businesses makes it difficult to waste time.
-			He typically wont spend longer than a few minutes looking over possible candidates for a position he needs to fill, but since this isn't a typical position he fills, he'll take a little extra time
-			to make sure a candidates a right fit. He's not on social media, really, and doesn't know much about IT, but knows what he's looking for.</p>
-		<p>Frustrations/Needs: He hopes to find candidates soon. He's frustrated with websites that have an overly-complex user-interface but appreciates creativity. He's also frustrated with his current system of handling his websites, and knows that he could do better.
-			He's really looking for someone for the long run but also needs someone to help promote what's going on right now, as soon as possible. More specifcally, he's looking for someone with previous experience, 2 to 3 years preferably. His
-			newer ventures are growing exponentially and needs someone to help promote his brands. He wants to hire within the next few weeks.</p>
-		<p>User Story: As a user I need to quickly determine if this candidate is suitable for managing websites, mostly, independently.</p>
+		<p>Behaviors/Attitudes: Her experience in her career is extensive, and she's looking for the right fit for this new company. She cares about the company and wants to see it grow so she's looking for someone personable. She'll give a good look at a person's portfolio if they seem similar to the right fit. When searching personal sites, she looks for links to external sites like Github or LinkedIn.</p>
+		<p>Frustrations/Needs: She needs to find someone who is comfortable with working for a new business, with less benefits than a bigger, more established business. She's okay with newer talent, but is mostly looking for people who have been in the industry for at least 1 - 2 years. She can get frustrated looking at over stylized websites and mostly looks for simplicity.</p>
+		<p>User Story: As a user I need to quickly determine if this candidate is suitable for managing websites.</p>
 	</body>
 </html>
