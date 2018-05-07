@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="utf-8">
 	<head>
+		<meta charset="utf-8">
 		<title>PWP</title>
 	</head>
 	<body>
 		<h1>Purpose, Audience, Goal</h1>
-		<p>Purpose: I would like for my website to be a gallery for graphic design and for poetry.</p>
-		<p>Audience: The site is designed with a casual audience in mind. My target audience still includes the professional web development community, as well as recruiters.</p>
-		<p>Goal: My primary goal for this project is for it to serve as a gallery for my skills in web development. My secondary goal is to promote art.</p>
+		<p>Purpose: I would like for my personal website project to be a professional portfolio for branding.</p>
+		<p>Audience: The site is designed with a people who want to know more about me and my skills in mind. My target audience includes the professional web development community, as well as recruiters, and clients.</p>
+		<p>Goal: My primary goal for this project is for it to serve as a gallery for my skills in web development and in turn acquire work.</p>
 		<h2>Persona</h2>
 		<p>Name:Gordon Gallegos</p>
 		<p>Age: 42</p>
@@ -21,13 +21,5 @@
 			He's really looking for someone for the long run but also needs someone to help promote what's going on right now, as soon as possible. More specifcally, he's looking for someone with previous experience, 2 to 3 years preferably. His
 			newer ventures are growing exponentially and needs someone to help promote his brands. He wants to hire within the next few weeks.</p>
 		<p>User Story: As a user I need to quickly determine if this candidate is suitable for managing websites, mostly, independently.</p>
-		<br>
-		<h2>Persona pt. 2</h2>
-		<p>Name: Keisha Santiago</p>
-		<p>Age: 20</p>
-		<p>Technology: Samsung Galaxy S7 on an unlimited 4g network, and a Dell Inspiron 15 3000 (Windows 10)</p>
-		<p>Scenario: She stumbled onto your website because the idea of poetry x graphic design sounds interesting to her.</p>
-		<p>Behaviors/Attitudes: Mostly, she appreciates functioning, quick, and clean websites. Lower quality, and slow websites turn her away from wanting to navigate them. Good content is also necessary to keep her coming back.</p>
-		<p>User Story: As a user, I want to navigate a website comfortably and enjoy the content.</p>
 	</body>
-	</html>
+</html>
