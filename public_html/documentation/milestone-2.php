@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
-<meta charset="UTF-8"
 	<head>
 		<title>Milestone 2a</title>
+		<meta charset="UTF-8">
 	</head>
 	<body>
 		<p> <strong> Content Strategy: </strong>
@@ -21,10 +21,10 @@
 				version scrolls sideways from left to right, with no endless scrolling. There will be circular identifiers
 				to let the user know what section they're on. </em></p>
 		<br>
-		<img src="About-me.png">
+		<img src="About-me.png" alt="about-me">
 		<br>
-		<img src="Contact.png">
+		<img src="Contact.png" alt="contact">
 		<br>
-		<img src="Mobile.png">
+		<img src="Mobile.png" alt="mobile">
 	</body>
 </html>
