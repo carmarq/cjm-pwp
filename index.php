@@ -19,7 +19,9 @@ ous">
 <body>
 	<header>
 		<div class="container">
+			<div class="page-header">
 			<h1>Carlos Marquez <3</h1>
+		</div>
 		</div>
 	</header>
 </body>
