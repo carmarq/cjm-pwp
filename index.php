@@ -30,19 +30,45 @@
 	<div class="dmscus">
 		<div class="container">
 			<div class="row">
-				<h1>Carlos Marquez</h1>
-			</div>
-
-
-
-				<div class="">
-					<div class="">
-
-					</div>
+				<div class="col align-self-center">
+				<h1>Carlos<br>Marquez</h1>
+				</div>
+				<p>About Me:
+				<br>
+				Hi, I'm Carlos! I'm currently enrolled in a fullstack web development bootcamp. This page will be updated as time passes to document my work. Please look at my projects down below and feel free to contact me as well. Thank you!</p>
+				<div>
+					<button>Projects</button>
 				</div>
 			</div>
 		</div>
 	</div>
+
+	<!--Projects Section Starts Here-->
+	<div class="projects">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+				<h2>Projects</h2>
+				<p>Capstone:
+				<br>
+				For around two months I worked with friends on an application for the capstone of my coding boot camp. The application lets users look up Albuquerque breweries based on their search criteria for preference of drink. Those same breweries can moderate their own page, too.
+				</p>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Contact Section Starts Here-->
+
+
+
+
+
+
+
+
+
 	</body>
 
 

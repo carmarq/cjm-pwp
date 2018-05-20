@@ -1,3 +1,38 @@
 h1 {
 	font-family: 'Quicksand', sans-serif;
+	font-size: 4vw;
+	color: ghostwhite;
 }
+h2 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 3vw;
+	color: ghostwhite;
+}
+p {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 2vw;
+	color: ghostwhite;
+
+}
+
+
+/*About-Me*/
+.dmscus {
+	background-color: black;
+}
+
+
+
+
+
+
+
+
+
+/*Projects*/
+.projects {
+	background-color: black;
+}
+
+
+
