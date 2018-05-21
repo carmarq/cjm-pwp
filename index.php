@@ -34,25 +34,25 @@
 		<div class="container">
 			<div class="row">
 				<div class="col align-self-center">
-				<h1>Carlos<br>Marquez</h1>
+					<h1>Carlos
+						<br>
+						<span>Marquez</span>
+					</h1>
 				</div>
-				<p>About Me:
+				<p class="text-center">About Me:
 				<br>
 				Hi, I'm Carlos! I'm currently enrolled in a fullstack web development boot camp. This page will be updated as time passes to document my work. Please look at my projects down below and feel free to contact me as well. Thank you!</p>
 						<div class="col align-self-center">
 					<a href="https://twitter.com/carjmarq" target="_blank">
-						<i class="fab fa-twitter-square fa-2x"></i>
+						<i class="fab fa-twitter-square fa-lg"></i>
 					</a>
 					<a href="https://www.linkedin.com/in/carjmarq/" target="_blank">
-						<i class="fab fa-linkedin fa-2x"></i>
+						<i class="fab fa-linkedin fa-lg"></i>
 					</a>
 					<a href="https://github.com/carmarq/" target="_blank">
-						<i class=" fab fa-github-square fa-2x"></i>
+						<i class=" fab fa-github-square fa-lg"></i>
 					</a>
 						</div>
-					<div>
-					<button>Projects</button>
-				</div>
 			</div>
 		</div>
 	</div>
@@ -61,14 +61,14 @@
 	<div class="projects">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-12 col-sm-12 col-lg-6">
-				<h2>Projects</h2>
+				<div class="col-sm-12 col-sm-12 col-lg-12">
+				<h2 class="text-right">Projects</h2>
 				</div>
-				<p>Capstone:
+				<p class="text-center">Capstone:
 				<br>
 				For about two months I worked with friends on an application for the capstone of my coding boot camp. The application lets users look up Albuquerque breweries based on specific search criteria for preference of drink. Those same breweries can moderate their own page, too.
 				</p>
-				<p>Knights of Node:
+				<p class="text-center">Knights of Node:
 				<br>
 				From May 18th - May 20th, 2018 I participated in Angular Attack, a 48-hour hack-a-thon. A team of up to four has 48 hours to make any Angular application they want. The application that we made was a game where the player would take the role as the Angular knight and fight React dragons.
 				</p>
@@ -77,11 +77,11 @@
 	</div>
 
 	<!--Contact Section Starts Here-->
-	<div class="col-sm-12 col-md-12 col-lg-6 form">
+	<div class="contact">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-4">
-					<h3>Contact</h3>
+				<div class="col-sm-12 col-md-12 col-lg-6 form">
+					<h2>Contact</h2>
 				</div>
 					<label for="full-name">Full Name</label>
 					<input type="text" id="Full-name" placeholder="Enter name here...">
@@ -93,7 +93,6 @@
 					<input type="text" id="subject" placeholder="Enter subject here...">
 
 					<textarea name="textarea" rows="8" cols="15">Write something here...</textarea>
-
 			</div>
 		</div>
 	</div>

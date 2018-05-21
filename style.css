@@ -33,7 +33,7 @@ p {
 
 /*Contact*/
 .contact {
-	background-color: transparent;
+	background-color: #666;
 }
 
 .fa {
@@ -42,13 +42,7 @@ p {
 
 .fa-twitter-square, .fa-linkedin, .fa-github-square {
 	float: right;
-
-}
-
-h3 {
-	font-family: 'Quicksand', sans-serif;
-	font-size: 3vw;
-	color: #000;
+	color: ghostwhite;
 }
 
 
