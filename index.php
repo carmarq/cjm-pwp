@@ -61,7 +61,7 @@
 	<div class="projects">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6">
+				<div class="col-sm-12 col-sm-12 col-lg-6">
 				<h2>Projects</h2>
 				</div>
 				<p>Capstone:
@@ -74,13 +74,20 @@
 	</div>
 
 	<!--Contact Section Starts Here-->
-	<div class="contact">
+	<div class="col-sm-12 col-md-12 col-lg-6 form">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-12">
-					<h2>Contact</h2>
+				<div class="col-lg-4">
+					<h3>Contact</h3>
 				</div>
+					<label for="full-name">Full Name</label>
+					<input type="text" id="Full-name" placeholder="Enter name here...">
 
+					<label for="e-mail">E-mail</label>
+					<input type="text" id="E-mail" placeholder="Enter E-mail here...">
+
+					<label for="subject">Subject</label>
+					<input type="text" id="subject" placeholder="Enter subject here...">
 			</div>
 		</div>
 	</div>

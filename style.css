@@ -18,7 +18,7 @@ p {
 
 /*About-Me*/
 .dmscus {
-	background-color: #000;
+	background-color: #666;
 }
 
 
@@ -32,6 +32,19 @@ p {
 /*Projects*/
 .projects {
 	background-color: #3e3b3b;
+}
+
+
+
+/*Contact*/
+.contact {
+	background-color: transparent;
+}
+
+h3 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 4vw;
+	color: #000;
 }
 
 
