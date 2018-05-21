@@ -24,11 +24,6 @@ p {
 
 
 
-
-
-
-
-
 /*Projects*/
 .projects {
 	background-color: #3e3b3b;
@@ -41,9 +36,18 @@ p {
 	background-color: transparent;
 }
 
+.fa {
+	font-size: 3rem;
+}
+
+.fa-twitter-square, .fa-linkedin, .fa-github-square {
+	float: right;
+
+}
+
 h3 {
 	font-family: 'Quicksand', sans-serif;
-	font-size: 4vw;
+	font-size: 3vw;
 	color: #000;
 }
 

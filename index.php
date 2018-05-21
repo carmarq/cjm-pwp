@@ -39,7 +39,7 @@
 				<p>About Me:
 				<br>
 				Hi, I'm Carlos! I'm currently enrolled in a fullstack web development boot camp. This page will be updated as time passes to document my work. Please look at my projects down below and feel free to contact me as well. Thank you!</p>
-						<div>
+						<div class="col align-self-center">
 					<a href="https://twitter.com/carjmarq" target="_blank">
 						<i class="fab fa-twitter-square fa-2x"></i>
 					</a>
@@ -88,6 +88,9 @@
 
 					<label for="subject">Subject</label>
 					<input type="text" id="subject" placeholder="Enter subject here...">
+
+					<textarea name="textarea" rows="8" cols="15">Write something here...</textarea>
+
 			</div>
 		</div>
 	</div>
