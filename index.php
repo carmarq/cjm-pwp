@@ -68,7 +68,10 @@
 				<br>
 				For around two months I worked with friends on an application for the capstone of my coding boot camp. The application lets users look up Albuquerque breweries based on their search criteria for preference of drink. Those same breweries can moderate their own page, too.
 				</p>
-
+				<p>Knights of Node:
+				<br>
+				From May 18th - May 20th, 2018 I participated in Angular Attack, a 48-hour hack-a-thon. A team of up to four has 48 hours to make any Angular application they want. The application that we made was a game where the player takes the role as the Angular knight and where they would fight React dragons.
+				</p>
 			</div>
 		</div>
 	</div>
