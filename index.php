@@ -33,7 +33,7 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 
 
-		<title>Carlos, Junior Developer</title>
+		<title>Carlos Marquez, Junior Developer</title>
 
 	</head>
 
