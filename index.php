@@ -10,19 +10,23 @@
 		<!--Font Awesome Glyphs-->
 		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
+		<!--FullPage.js CSS-->
+		<link rel="stylesheet" href="css/jquery.fullpage.min.css" type="text/css">
+
 		<!--CSS Stylesheet-->
-<link rel="stylesheet" href="style.css" type="text/css">
+		<link rel="stylesheet" href="style.css" type="text/css">
 
 		<!--Google Fonts-->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 
-
-
-
-		<!--Bootstrap JS-->
+		<!--JQuery first, Popper.js second, and Bootstrap Js  third-->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+
 		<title>Carlos?</title>
 	</head>
 
