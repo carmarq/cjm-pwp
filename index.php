@@ -16,6 +16,12 @@
 		<!--CSS Stylesheet-->
 		<link rel="stylesheet" href="style.css" type="text/css">
 
+		<!-- fullPage.js -->
+		<script src="js/jquery.fullpage.min.js" type="text/javascript"></script>
+
+		<!-- Custom JS needed to initialize fullPage -->
+		<script src="js/custom.js" type="text/javascript"></script>
+
 		<!--Google Fonts-->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 
