@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap	 		.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" 		crossorigin="anonymous">
 
 		<!--Font Awesome Glyphs-->
 		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
@@ -14,26 +14,27 @@
 		<link rel="stylesheet" href="css/jquery.fullpage.min.css" type="text/css">
 
 		<!--CSS Stylesheet-->
-		<link rel="stylesheet" href="style.css" type="text/css">
+		<link rel="stylesheet" href="css/style.css" type="text/css">
 
-		<!-- fullPage.js -->
+		<!--JQuery first, Popper.js second, and Bootstrap Js  third-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 		integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" 	 		crossorigin="anonymous"></script>
+
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" 		integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" 	 		crossorigin="anonymous"></script>
+
+		<!--FullPage.js-->
 		<script src="js/jquery.fullpage.min.js" type="text/javascript"></script>
 
-		<!-- Custom JS needed to initialize fullPage -->
+		<!--Custom JS needed to initialize fullPage-->
 		<script src="js/custom.js" type="text/javascript"></script>
 
 		<!--Google Fonts-->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 
-		<!--JQuery first, Popper.js second, and Bootstrap Js  third-->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<title>Carlos, Junior Developer</title>
 
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-
-
-		<title>Carlos?</title>
 	</head>
 
 <body>
