@@ -107,7 +107,20 @@
 		</div>
 	</div>
 
+	<div class="g-recaptcha" data-sitekey="6LcDZlwUAAAAAN9xUy3yIvS2l58L9cRYOO85vTzt"></div>
 
+	<!-- reCAPTCHA -->
+	<div class="g-recaptcha" data-sitekey="--YOUR RECAPTCHA SITE KEY--"></div>
+
+	<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+	<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+
+	<!--Contact Section Ends here-->
+	<div class="row">
+		<div class="col-xs-12">
+			<div id="output-area"></div>
+		</div>
+	</div>
 </body>
 
 
