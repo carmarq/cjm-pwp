@@ -17,17 +17,23 @@ p {
 
 
 /*About-Me*/
-
+.dmscus {
+	background-color: #666;
+}
 
 
 
 /*Projects*/
-
+.projects {
+	background-color: #3e3b3b;
+}
 
 
 
 /*Contact*/
-
+.contact {
+	background-color: #666;
+}
 
 .fa {
 	font-size: 3rem;
