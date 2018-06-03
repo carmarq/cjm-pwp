@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8"/>
+		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 		<!-- Bootstrap CSS -->
@@ -40,36 +40,37 @@
 
 <body>
 
-	<!--About Me Section Starts Here-->
-	<div class="dmscus">
-		<div class="container">
-			<div class="row">
-			<div class="col align-self-center">
-				<h1>Carlos
-		<br>
-		<span>Marquez</span>
-		</h1>
-		<p class="text-center">About Me:
-		<br>
-		Hi, I'm Carlos! I'm currently enrolled in a fullstack web development boot camp. This page will be updated as time passes to document my work. Please look at my projects down below and feel free to contact me as well. Thank you!</p>
-		<div class="col align-self-center">
-		<a href="https://twitter.com/carjmarq" target="_blank">
-			<i class="fab fa-twitter-square fa-lg"></i> </a>
-		<a href="https://www.linkedin.com/in/carjmarq/" target="_blank">
-			<i class="fab fa-linkedin fa-lg"></i> </a>
-		<a href="https://github.com/carmarq/" target="_blank">
-			<i class=" fab fa-github-square fa-lg"></i> </a>
-		</div>
-			</div>
+<!--Navigation Bar Begins Here-->
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-6">
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<nav class="navbar">
+						<span class="navbar-brand mb-0 h1">Carlos Marquez</span>
+						</nav>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 
+	<!--About Me Section Starts Here-->
+	<div class="dmscus">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-6 col-sm-12 col-lg-12"></div>
+				<p class="text-center">About Me:<br>
+		Hi, I'm Carlos! I'm currently enrolled in a fullstack web development boot camp. This page will be updated as time passes to document my work. Please look at my projects down below and feel free to contact me as well. Thank you!
+				</p>
+			</div>
+		</div>
+	</div>
 	<!--Projects Section Starts Here-->
 	<div class="projects">
 		<div class="container">
 			<div class="row">
-			<div class="col-sm-12 col-sm-12 col-lg-12">
+			<div class="col-xs-6 col-sm-12 col-lg-12">
 				<h2 class="text-right">Projects</h2>
 		<p class="text-center">Capstone:
 		<br>
