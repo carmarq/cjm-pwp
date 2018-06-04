@@ -40,15 +40,17 @@
 
 <body>
 
-<!--Navigation Bar Begins Here-->
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-6">
-				<div class="panel panel-default">
-					<div class="panel-body">
-						<nav class="navbar">
-						<span class="navbar-brand mb-0 h1">Carlos Marquez</span>
-						</nav>
+<!--Nav Bar Begins Here-->
+	<div class="nav">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-6">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<nav class="navbar navbar-expand-lg">
+								<a class="navbar-brand">Carlos Marquez</a>
+							</nav>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -66,6 +68,8 @@
 			</div>
 		</div>
 	</div>
+
+
 	<!--Projects Section Starts Here-->
 	<div class="projects">
 		<div class="container">
@@ -78,7 +82,7 @@
 		</p>
 		<p class="text-center">Knights of Node:
 		<br>
-		From May 18th - May 20th, 2018 I participated in Angular Attack, a 48-hour hack-a-thon. A team of up to four has 48 hours to make any Angular application they want. The application that we made was a game where the player would take the role as the Angular knight and fight React dragons.
+		From May 18th - May 20th, 2018 I participated in Angular Attack, a 48-hour hack-a-thon. A team of up to four has 48 hours to make any Angular application they want. The application that we made was a game where the player would take the role as the Angular knight to fight React dragons.
 		</p>
 			</div>
 			</div>
@@ -86,44 +90,61 @@
 	</div>
 
 	<!--Contact Section Starts Here-->
-	<div class="contact">
-		<div class="container">
+	<form class="contact" id="contact">
+		<div class="container-fluid">
 			<div class="row">
-				<div class="col-sm-12 col-md-12 col-lg-6 form">
-				<h2>Contact</h2>
+				<div class="col-xs-6 form">
+					<h2>Contact</h2>
 
-				<label for="full-name">Full Name</label>
-				<input type="text" id="Full-name" placeholder="Enter name here...">
+					<div class="form-group">
+					<label for="name">Name</label>
+					<input type="text" id="name" class="form-control" placeholder="Enter name here..." style="width:25vh" required="required" data-error="Please enter your name">
+					</div>
 
-				<label for="e-mail">E-mail</label>
-				<input type="text" id="E-mail" placeholder="Enter E-mail here...">
+					<div class="form-group">
+					<label for="e-mail">E-mail</label>
+					<input type="text" id="e-mail" class="form-control" placeholder="Enter E-mail here..." style="width: 25vh" required="required" data-error="Please enter your e-mail">
+					</div>
 
-				<label for="subject">Subject</label>
-				<input type="text" id="subject" placeholder="Enter subject here...">
+					<div class="form-group">
+					<label for="message">Message</label>
+					<textarea id="message" class="form-control" name="message" placeholder="Write something here..." style="width:50vh" required="required" data-error="Please don't fuck with me"></textarea>
+					</div>
 
-				<label for="message">Message</label>
-				<textarea id="message" name="message" placeholder="Write something here..." style="12vh"></textarea>
+					<div class="col-xs-6 form">
+						<a href="mailto:carl.marq95@gmail.com" target="_blank">
+							<i class="fas fa-envelope-square fa-3x"></i>
+						</a>
+						<a href="https://twitter.com/carmarq" target="_blank">
+							<i class="fab fa-twitter-square fa-3x"></i>
+						</a>
+						<a href="https://www.linkedin.com/in/carmarq/" target="_blank">
+							<i class="fab fa-linkedin fa-3x"></i>
+						</a>
+						<a href="https://github.com/carmarq/" target="_blank">
+							<i class="fab fa-github-square fa-3x"></i>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+	</form>
 
+	<div class="bottom" id="bottom">
+		<div class="container">
+	<!-- reCAPTCHA -->
 	<div class="g-recaptcha" data-sitekey="6LcDZlwUAAAAAN9xUy3yIvS2l58L9cRYOO85vTzt"></div>
 
-	<!-- reCAPTCHA -->
-	<div class="g-recaptcha" data-sitekey="--YOUR RECAPTCHA SITE KEY--"></div>
+	<button class="btn btn-success" type="submit"><i class="fas fa-paper-plane"></i> Send</button>
+	<button class="btn" type="reset"><i class="fas fa-ban"></i> Reset</button>
+		</div>
+	</div>
 
-	<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-	<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
-
-	<!--Contact Section Ends here-->
+						<!--Contact Section Ends here-->
 	<div class="row">
 		<div class="col-xs-12">
 			<div id="output-area"></div>
+		 	</div>
 		</div>
-	</div>
-</body>
-
-
-
+	</body>
 </html>

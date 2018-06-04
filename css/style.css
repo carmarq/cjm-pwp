@@ -1,42 +1,80 @@
+/*corrects IE min-height bug*/
+html { display: flex;}
+body { width: 100%;}
+
 h1 {
 	font-family: 'Quicksand', sans-serif;
-	font-size: 4vw;
-	color: #ddd3d3;
+	font-size: 3vw;
+	color: black;
 }
 h2 {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 3vw;
-	color: #ddd3d3;
+	color: black;
 }
 p {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 2vw;
-	color: #c3bcbc;
+	color: black;
 }
+
+/*Nav Bar*/
+.nav {
+	background-color: ghostwhite;
+	color: black;
+	padding: 1rem;
+
+}
+
+.navbar-brand {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 3vw;
+}
+
+
+
 
 /*About-Me*/
 .dmscus {
-	background-color: #666;
+	background-color: ghostwhite;
+	padding: 2rem;
 }
 
 /*Projects*/
 .projects {
-	background-color: #3e3b3b;
+	background-color: ghostwhite;
+	padding: 2rem;
 }
 
 /*Contact*/
 .contact {
-	background-color: #666;
+	background-color: ghostwhite;
+	text-align: center;
 }
+.g-recaptcha {
+	align-self: center;
+	background-color: ghostwhite;
+}
+
+.bottom {
+	background-color: ghostwhite;
+}
+
 
 .fa {
 	font-size: 3rem;
 }
 
-.fa-twitter-square, .fa-linkedin, .fa-github-square {
+.fa-twitter-square, .fa-linkedin, .fa-github-square, .fa-envelope-square {
 	float: right;
-	color: ghostwhite;
+	color: black;
 }
 
-
-
+/*Style inputs with type="text", select elements and text areas */
+input[type=submit], input[type="reset"] {
+	background-color: black;
+	padding: 7px 10px;
+	border: none;
+	cursor: pointer;
+	margin-top: 5px;
+}

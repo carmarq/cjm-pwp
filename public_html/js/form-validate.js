@@ -34,7 +34,7 @@ $(document).ready(function(){
 			},
 			message: {
 				required: true,
-				maxlength: 2000
+				maxlength: 2048
 			}
 		},
 
@@ -49,15 +49,15 @@ $(document).ready(function(){
 			},
 			message: {
 				required: "Please enter a message.",
-				maxlength: "2000 characters max."
+				maxlength: "2048 characters max."
 			}
 		},
 
 		// AJAX submit the form data to back end if rules pass
 		submitHandler: function(form) {
-			$("#form").ajaxSubmit({
+			$("#contact").ajaxSubmit({
 				type: "POST",
-				url: $("#form").attr("action"),
+				url: $("#contact").attr("action"),
 
 				success: function(ajaxOutput) {
 					// clear the output area's formatting
@@ -68,7 +68,7 @@ $(document).ready(function(){
 
 					// reset the form if it was successful
 					if($(".alert-success").length >= 1) {
-						$("#form")[0].reset();
+						$("#contact")[0].reset();
 					}
 				}
 			})
