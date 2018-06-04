@@ -90,12 +90,12 @@
 	</div>
 
 	<!--Contact Section Starts Here-->
-	<form class="contact" id="contact">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-xs-6 form">
 					<h2>Contact</h2>
 
+					<form method="post" action="php/mailer.php" class="contact" id="contact">
 					<div class="form-group">
 					<label for="name">Name</label>
 					<input type="text" id="name" class="form-control" placeholder="Enter name here..." style="width:25vh" required="required" data-error="Please enter your name">
@@ -128,16 +128,13 @@
 				</div>
 			</div>
 		</div>
-	</form>
 
-	<div class="bottom" id="bottom">
-		<div class="container">
+	<iv> class="bottom" id="bottom">
 	<!-- reCAPTCHA -->
 	<div class="g-recaptcha" data-sitekey="6LcDZlwUAAAAAN9xUy3yIvS2l58L9cRYOO85vTzt"></div>
 
 	<button class="btn btn-success" type="submit"><i class="fas fa-paper-plane"></i> Send</button>
 	<button class="btn" type="reset"><i class="fas fa-ban"></i> Reset</button>
-		</div>
 	</div>
 
 						<!--Contact Section Ends here-->
@@ -146,5 +143,5 @@
 			<div id="output-area"></div>
 		 	</div>
 		</div>
-	</body>
+</body>
 </html>
