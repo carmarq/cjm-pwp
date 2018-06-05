@@ -49,45 +49,49 @@
 
 
 		<!--Nav Bar Begins Here-->
-		<div class="nav">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-6">
-						<div class="panel panel-default">
-							<div class="panel-body">
-								<nav class="navbar navbar-expand-lg">
-									<a class="navbar-brand">Carlos Marquez</a>
-								</nav>
+		<section>
+			<div class="nav">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-6">
+							<div class="panel panel-default">
+								<div class="panel-body">
+									<nav class="navbar navbar-expand-lg">
+										<a class="navbar-brand">Carlos Marquez</a>
+									</nav>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 
-		<!--About Me Section Starts Here-->
-		<div class="dmscus">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-6 col-sm-12 col-lg-12"></div>
-					<p class="text-center">About Me:<br>
-						Hi, I'm Carlos! I'm currently enrolled in a fullstack web development boot camp. This page will be updated as time passes to document my work. Please look at my projects down below and feel free to contact me as well. Thank you!
-					</p>
+		<section> <!--About Me Section Starts Here-->
+			<div class="dmscus">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-6 col-sm-12 col-lg-12">
+							<p class="text-center">About Me:<br>
+							Hello, I'm Carlos. I'm currently enrolled in a fullstack web development boot camp. This page will be updated as time passes to document my work. Please look at my projects down below and feel free to contact me as well. Thank you!
+							</p>
+						</div>
+					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 
-
-		<!--Projects Section Starts Here-->
+	<section> <!--Projects Section Starts Here-->
 		<div class="projects">
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-6 col-sm-12 col-lg-12">
 						<h2 class="text-right">Projects</h2>
 						<p class="text-center">Capstone:
-							<br>
-							For about two months I worked with friends on an application for the capstone of my coding boot camp. The application lets users look up Albuquerque breweries based on specific search criteria for preference of drink. Those same breweries can moderate their own page, too.
+						<br>
+						For about two months I worked with friends on an application for the capstone of my coding boot camp. The application lets users look up Albuquerque breweries based on specific search criteria for preference of drink. Those same breweries can moderate their own page, too.
 						</p>
+						<br>
 						<p class="text-center">Knights of Node:
 							<br>
 							From May 18th - May 20th, 2018 I participated in Angular Attack, a 48-hour hack-a-thon. A team of up to four has 48 hours to make any Angular application they want. The application that we made was a game where the player would take the role as the Angular knight to fight React dragons.
@@ -96,26 +100,28 @@
 				</div>
 			</div>
 		</div>
+	</section>
 
-		<!--Contact Section Starts Here-->
-		<section class="container-fluid">
-			<div class="row">
+		<section class="container-fluid"> <!--Contact Section Starts Here-->
+			<form method="post" action="php/mailer.php" class="row" id="contact">
 				<div class="col-xs-6 form">
 					<h2>Contact</h2>
 
-					<form method="post" action="php/mailer.php" class="contact" id="contact">
 						<div class="form-group">
 							<label for="name">Name</label>
 							<div class="input-group">
 								<div class="input-group-prepend">
 							<input type="text" id="name" class="form-control" placeholder="Enter name here..."
 									 style="width:25vw" required="required">
+								</div>
+							</div>
 						</div>
 
 						<div class="form-group">
 							<label for="e-mail">E-mail</label>
 							<div class="input-group">
 							<input type="text" id="e-mail" class="form-control" placeholder="Enter E-mail here..." style="width: 25vh" required="required">
+						</div>
 						</div>
 
 
@@ -139,23 +145,16 @@
 							<a href="https://github.com/carmarq/" target="_blank">
 								<i class="fab fa-github-square fa-3x"></i>
 							</a>
-					</div>
+						</div>
 				</div>
-			</div>
-		</div>
-	</div>
 
 		<!-- reCAPTCHA -->
 		<div class="g-recaptcha" data-sitekey="6LcDZlwUAAAAAN9xUy3yIvS2l58L9cRYOO85vTzt"></div>
 
 		<button class="btn btn-success" type="submit"><i class="fas fa-paper-plane"></i> Send</button>
 		<button class="btn" type="reset"><i class="fas fa-ban"></i> Reset</button>
-	<!--Contact Section Ends here-->
-		<div class="row">
-			<div class="col-xs-12">
+			</form>
 				<div id="output-area"></div>
-				</div>
-			</div>
-		</section>
+		</section> <!--Contact Section Ends here-->
 	</body>
 </html>
