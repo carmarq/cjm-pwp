@@ -45,8 +45,8 @@
 		<title>Carlos Marquez, Junior Developer</title>
 
 	</head>
-	<body>
 
+	<body>
 
 		<!--Nav Bar Begins Here-->
 		<section>
@@ -93,8 +93,8 @@
 						</p>
 						<br>
 						<p class="text-center">Knights of Node:
-							<br>
-							From May 18th - May 20th, 2018 I participated in Angular Attack, a 48-hour hack-a-thon. A team of up to four has 48 hours to make any Angular application they want. The application that we made was a game where the player would take the role as the Angular knight to fight React dragons.
+						<br>
+						From May 18th - May 20th, 2018 I participated in Angular Attack, a 48-hour hack-a-thon. A team of up to four has 48 hours to make any Angular application they want. The application that we made was a game where the player would take the role as the Angular knight to fight React dragons.
 						</p>
 					</div>
 				</div>
@@ -106,6 +106,7 @@
 			<form method="post" action="php/mailer.php" class="row" id="contact">
 				<div class="col-xs-6 form">
 					<h2>Contact</h2>
+				</div>
 
 						<div class="form-group">
 							<label for="name">Name</label>
@@ -120,7 +121,7 @@
 						<div class="form-group">
 							<label for="e-mail">E-mail</label>
 							<div class="input-group">
-							<input type="text" id="e-mail" class="form-control" placeholder="Enter E-mail here..." style="width: 25vh" required="required">
+							<input type="text" id="e-mail" class="form-control" placeholder="Enter E-mail here..." style="width: 25vw" required="required">
 						</div>
 						</div>
 
@@ -128,9 +129,15 @@
 						<div class="form-group">
 							<label for="message">Message</label>
 							<div class="input-group">
-							<textarea id="message" class="form-control" name="message" placeholder="Write something here..." style="width:50vh" required="required"></textarea>
+							<textarea id="message" class="form-control" name="message" placeholder="Write something here..." style="width:50vw" required="required"></textarea>
 						</div>
 						</div>
+
+						<!-- reCAPTCHA -->
+						<div class="g-recaptcha" data-sitekey="6LcDZlwUAAAAAN9xUy3yIvS2l58L9cRYOO85vTzt"></div>
+
+						<button class="btn btn-success" type="submit"><i class="fas fa-paper-plane"></i> Send</button>
+						<button class="btn" type="reset"><i class="fas fa-ban"></i> Reset</button>
 
 						<div class="col-xs-6 form">
 							<a href="mailto:carl.marq95@gmail.com" target="_blank">
@@ -148,11 +155,6 @@
 						</div>
 				</div>
 
-		<!-- reCAPTCHA -->
-		<div class="g-recaptcha" data-sitekey="6LcDZlwUAAAAAN9xUy3yIvS2l58L9cRYOO85vTzt"></div>
-
-		<button class="btn btn-success" type="submit"><i class="fas fa-paper-plane"></i> Send</button>
-		<button class="btn" type="reset"><i class="fas fa-ban"></i> Reset</button>
 			</form>
 				<div id="output-area"></div>
 		</section> <!--Contact Section Ends here-->
