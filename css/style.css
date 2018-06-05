@@ -82,7 +82,7 @@ input[type=submit], input[type="reset"] {
 	margin-top: 5px;
 }
 
-#contact #navbarSupportedContent {
+#contactContainer #navbarSupportedContent {
 	background-color: ghostwhite;
 	justify-content: center;
 

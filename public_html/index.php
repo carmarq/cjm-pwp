@@ -40,7 +40,7 @@
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 
 		<!--form validate js-->
-		<script src="js/form-validate.js"></script>
+		<script src="./js/form-validate.js"></script>
 
 		<title>Carlos Marquez, Junior Developer</title>
 
@@ -60,13 +60,13 @@
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul class="navbar-nav ml-auto">
 							<li class="nav-item">
-								<a class="nav-link" href="#">GitHub <span class="sr-only">(current)</span></a>
+								<a class="nav-link" href="https://github.com/carmarq">GitHub<span class="sr-only">(current)</span></a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">LinkedIn</a>
+								<a class="nav-link" href="https://www.linkedin.com/in/carjmarq/">LinkedIn</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Twitter</a>
+								<a class="nav-link" href="https://twitter.com/carjmarq">Twitter</a>
 							</li>
 
 						</ul>
@@ -112,7 +112,7 @@
 	</section>
 
 
-		<main class="container pb-5" id="contact">
+		<main class="container pb-5" id="contactContainer">
 			<div class="row">
 				<div class="col-xs-6">
 
@@ -136,12 +136,10 @@
 							<label for="e-mail">E-mail</label>
 							<div class="input-group">
 								<div class="input-group-prepend">
-
-								<input type="text" id="e-mail" class="form-control" placeholder="Enter E-mail here..." style="width: 25vw" required="required">
+								<input type="text" id="email" class="form-control" placeholder="Enter E-mail here..." style="width: 25vw" required="required">
 						</div>
 						</div>
 						</div>
-
 
 						<div class="form-group">
 							<label for="message">Message</label>
