@@ -34,6 +34,7 @@ try {
 	$email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
 
 	$message = filter_input(INPUT_POST, "message", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$subject = "Message sent";
 
 	// create Swift message
 	$swiftMessage = new Swift_Message();

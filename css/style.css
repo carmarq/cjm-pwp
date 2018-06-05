@@ -2,65 +2,58 @@
 html { display: flex;}
 body { width: 100%;}
 
+body {
+	background-color: ghostwhite;
+	font-family: 'Quicksand', sans-serif
+}
 h1 {
-	font-family: 'Quicksand', sans-serif;
 	font-size: 3vw;
 	color: black;
 }
 h2 {
-	font-family: 'Quicksand', sans-serif;
 	font-size: 3vw;
 	color: black;
 }
 p {
-	font-family: 'Quicksand', sans-serif;
 	font-size: 2vw;
 	color: black;
 }
 
 /*Nav Bar*/
 .nav {
-	background-color: ghostwhite;
 	color: black;
 	padding: 1rem;
 
 }
 
 .navbar-brand {
-	font-family: 'Quicksand', sans-serif;
 	font-size: 3vw;
 }
 
 /*Navbar*/
 #navigation {
-	background-color: ghostwhite;
 }
 
 
 /*About-Me*/
 .dmscus {
-	background-color: ghostwhite;
 	padding: 2rem;
 }
 
 /*Projects*/
 .projects {
-	background-color: ghostwhite;
 	padding: 2rem;
 }
 
 /*Contact*/
 .contact {
-	background-color: ghostwhite;
 	text-align: center;
 }
 .g-recaptcha {
 	align-self: center;
-	background-color: ghostwhite;
 }
 
 .bottom {
-	background-color: ghostwhite;
 }
 
 
@@ -83,7 +76,6 @@ input[type=submit], input[type="reset"] {
 }
 
 #contactContainer #navbarSupportedContent {
-	background-color: ghostwhite;
 	justify-content: center;
 
 }

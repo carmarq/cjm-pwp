@@ -5,10 +5,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
-				integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
-		<!--Font Awesome Glyphs-->
+		<!--Font Awesome-->
 		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
 		<!--CSS Stylesheet-->
@@ -29,12 +28,9 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 
 		<!-- jQuery Form, Additional Methods, Validate -->
-		<script type="text/javascript"
-				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
-		<script type="text/javascript"
-				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
-		<script type="text/javascript"
-				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 
 		<!-- Google reCAPTCHA -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
@@ -133,12 +129,12 @@
 						</div>
 
 						<div class="form-group">
-							<label for="e-mail">E-mail</label>
+							<label for="email">E-mail</label>
 							<div class="input-group">
 								<div class="input-group-prepend">
 								<input type="text" id="email" class="form-control" placeholder="Enter E-mail here..." style="width: 25vw" required="required">
-						</div>
-						</div>
+								</div>
+							</div>
 						</div>
 
 						<div class="form-group">
@@ -146,8 +142,8 @@
 							<div class="input-group">
 								<div class="input-group-prepend">
 								<textarea id="message" class="form-control" name="message" placeholder="Write something here..." style="width:50vw" required="required"></textarea>
-						</div>
-						</div>
+								</div>
+							</div>
 						</div>
 
 						<!-- reCAPTCHA -->
