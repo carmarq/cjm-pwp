@@ -31,7 +31,10 @@ p {
 	font-size: 3vw;
 }
 
-
+/*Navbar*/
+#navigation {
+	background-color: ghostwhite;
+}
 
 
 /*About-Me*/
@@ -77,4 +80,10 @@ input[type=submit], input[type="reset"] {
 	border: none;
 	cursor: pointer;
 	margin-top: 5px;
+}
+
+#contact #navbarSupportedContent {
+	background-color: ghostwhite;
+	justify-content: center;
+
 }

@@ -30,7 +30,7 @@ try {
 	 * so we're using the $_POST superglobal.
 	 **/
 	$name = filter_input(INPUT_POST, "name", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
-	$email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
+	$email = filter_input(INPUT_POST, "e-mail", FILTER_SANITIZE_EMAIL);
 	$message = filter_input(INPUT_POST, "message", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 
 	// create Swift message

@@ -12,7 +12,7 @@
 		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
 		<!--CSS Stylesheet-->
-		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<link rel="stylesheet" href="../css/style.css" type="text/css">
 
 		<!--JQuery first, Popper.js second, and Bootstrap Js  third-->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -48,24 +48,33 @@
 
 	<body>
 
+		<header id="navigation">
 		<!--Nav Bar Begins Here-->
-		<section>
-			<div class="nav">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-6">
-							<div class="panel panel-default">
-								<div class="panel-body">
-									<nav class="navbar navbar-expand-lg">
-										<a class="navbar-brand">Carlos Marquez</a>
-									</nav>
-								</div>
-							</div>
-						</div>
+			<div class="container">
+				<nav class="navbar navbar-expand-md navbar-light">
+					<a class="navbar-brand" href="#">Carlos Marquez</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="#">GitHub <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">LinkedIn</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Twitter</a>
+							</li>
+
+						</ul>
 					</div>
-				</div>
+				</nav>
 			</div>
-		</section>
+
+		</header>
 
 		<section> <!--About Me Section Starts Here-->
 			<div class="dmscus">
@@ -102,11 +111,16 @@
 		</div>
 	</section>
 
-		<section class="container-fluid"> <!--Contact Section Starts Here-->
+
+		<main class="container pb-5" id="contact">
+			<div class="row">
+				<div class="col-xs-6">
+
+		 <!--Contact Section Starts Here-->
 			<form method="post" action="php/mailer.php" class="row" id="contact">
 				<div class="col-xs-6 form">
 					<h2>Contact</h2>
-				</div>
+						</div>
 
 						<div class="form-group">
 							<label for="name">Name</label>
@@ -121,7 +135,10 @@
 						<div class="form-group">
 							<label for="e-mail">E-mail</label>
 							<div class="input-group">
-							<input type="text" id="e-mail" class="form-control" placeholder="Enter E-mail here..." style="width: 25vw" required="required">
+								<div class="input-group-prepend">
+
+								<input type="text" id="e-mail" class="form-control" placeholder="Enter E-mail here..." style="width: 25vw" required="required">
+						</div>
 						</div>
 						</div>
 
@@ -129,7 +146,9 @@
 						<div class="form-group">
 							<label for="message">Message</label>
 							<div class="input-group">
-							<textarea id="message" class="form-control" name="message" placeholder="Write something here..." style="width:50vw" required="required"></textarea>
+								<div class="input-group-prepend">
+								<textarea id="message" class="form-control" name="message" placeholder="Write something here..." style="width:50vw" required="required"></textarea>
+						</div>
 						</div>
 						</div>
 
@@ -139,24 +158,12 @@
 						<button class="btn btn-success" type="submit"><i class="fas fa-paper-plane"></i> Send</button>
 						<button class="btn" type="reset"><i class="fas fa-ban"></i> Reset</button>
 
-						<div class="col-xs-6 form">
-							<a href="mailto:carl.marq95@gmail.com" target="_blank">
-								<i class="fas fa-envelope-square fa-3x"></i>
-							</a>
-							<a href="https://twitter.com/carmarq" target="_blank">
-								<i class="fab fa-twitter-square fa-3x"></i>
-							</a>
-							<a href="https://www.linkedin.com/in/carmarq/" target="_blank">
-								<i class="fab fa-linkedin fa-3x"></i>
-							</a>
-							<a href="https://github.com/carmarq/" target="_blank">
-								<i class="fab fa-github-square fa-3x"></i>
-							</a>
-						</div>
-				</div>
 
-			</form>
-				<div id="output-area"></div>
-		</section> <!--Contact Section Ends here-->
+						</form>
+					<div id="output-area"></div>
+				<!--Contact Section Ends here-->
+				</div>
+			</div>
+		</main>
 	</body>
 </html>
