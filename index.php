@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -45,8 +45,8 @@
 		<title>Carlos Marquez, Junior Developer</title>
 
 	</head>
+	<body>
 
-	<form>
 
 		<!--Nav Bar Begins Here-->
 		<div class="nav">
@@ -98,7 +98,7 @@
 		</div>
 
 		<!--Contact Section Starts Here-->
-		<div class="container-fluid">
+		<section class="container-fluid">
 			<div class="row">
 				<div class="col-xs-6 form">
 					<h2>Contact</h2>
@@ -106,8 +106,10 @@
 					<form method="post" action="php/mailer.php" class="contact" id="contact">
 						<div class="form-group">
 							<label for="name">Name</label>
+							<div class="input-group">
+								<div class="input-group-prepend">
 							<input type="text" id="name" class="form-control" placeholder="Enter name here..."
-									 style="width:25vh" required="required">
+									 style="width:25vw" required="required">
 						</div>
 
 						<div class="form-group">
@@ -115,7 +117,7 @@
 							<div class="input-group">
 							<input type="text" id="e-mail" class="form-control" placeholder="Enter E-mail here..." style="width: 25vh" required="required">
 						</div>
-						<
+
 
 						<div class="form-group">
 							<label for="message">Message</label>
@@ -137,22 +139,23 @@
 							<a href="https://github.com/carmarq/" target="_blank">
 								<i class="fab fa-github-square fa-3x"></i>
 							</a>
-						</div>
+					</div>
 				</div>
 			</div>
 		</div>
+	</div>
 
 		<!-- reCAPTCHA -->
 		<div class="g-recaptcha" data-sitekey="6LcDZlwUAAAAAN9xUy3yIvS2l58L9cRYOO85vTzt"></div>
 
 		<button class="btn btn-success" type="submit"><i class="fas fa-paper-plane"></i> Send</button>
 		<button class="btn" type="reset"><i class="fas fa-ban"></i> Reset</button>
-	</form>
 	<!--Contact Section Ends here-->
-	<div class="row">
-		<div class="col-xs-12">
-			<div id="output-area"></div>
-		</div>
-	</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<div id="output-area"></div>
+				</div>
+			</div>
+		</section>
 	</body>
 </html>
