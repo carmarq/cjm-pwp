@@ -23,7 +23,9 @@ p {
 .nav {
 	color: black;
 	padding: 1rem;
+}
 
+.projects, .dmscus {
 }
 
 .navbar-brand {

@@ -74,12 +74,12 @@
 		</header>
 
 		<section> <!--About Me Section Starts Here-->
-			<div class="dmscus">
+			<div class="dmscus shadow">
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-6 col-sm-12 col-lg-12">
-							<p class="text-center">About Me:<br>
-							Hello, I'm Carlos. I'm currently enrolled in a fullstack web development boot camp. This page will be updated as time passes to document my work. Please look at my projects down below and feel free to contact me as well. Thank you!
+							<p class="text-center">
+							Hi, I'm Carlos. I'm enrolled in a full-stack web development boot camp!! This page will be updated as time passes to document my work. Please look at my projects down below and feel free to contact me as well. <br> Thank you!
 							</p>
 						</div>
 					</div>
@@ -114,7 +114,7 @@
 				<div class="col-xs-6" >
 
 		 <!--Contact Section Starts Here-->
-			<form method="post" action="php/mailer.php" class="row" id="contact">
+			<form method="post" action="php/mailer.php" class="row shadow" id="contact">
 				<div class="col-xs-6 form">
 					<h2>Contact</h2>
 						</div>
