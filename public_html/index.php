@@ -77,7 +77,7 @@
 			<div class="dmscus shadow">
 				<div class="container">
 					<div class="row">
-						<div class="col-xs-6 col-sm-12 col-lg-12">
+						<div class= "col-sm-12">
 							<p class="text-center">
 							Hi, I'm Carlos. I'm enrolled in a full-stack web development boot camp!! This page will be updated as time passes to document my work. Please look at my projects down below and feel free to contact me as well. <br> Thank you!
 							</p>
@@ -91,7 +91,7 @@
 		<div class="projects shadow">
 			<div class="container">
 				<div class="row ">
-					<div class="col-xs-6 col-sm-12 col-lg-12">
+					<div class="col-sm-12">
 						<h2 class="text-right">Projects</h2>
 						<p class="text-center">Capstone:
 						<br>
@@ -111,16 +111,16 @@
 
 		<main class="container pb-5" id="contactContainer">
 			<div class="row">
-				<div class="col-xs-6">
+				<div class="col-sm-6">
 
 		 <!--Contact Section Starts Here-->
 			<form method="post" action="php/mailer.php" class="form-horizontal" id="contact">
-				<div class="col-xs-6 form">
+				<div class="col-sm-12 form">
 					<h2 class="text-left">Contact</h2>
 						</div>
 
-						<div class="form-group">
-							<label for="name" class="col-sm-2">Name</label>
+						<div class="form-group col-sm-6">
+							<label for="name" class="col-sm-6">Name</label>
 							<div class="input-group">
 								<div class="col-sm-10">
 							<input type="text" name="name" id="name" class="form-control" placeholder="Enter name here..."
@@ -129,29 +129,29 @@
 							</div>
 						</div>
 
-						<div class="form-group">
-							<label for="email">E-mail</label>
+						<div class="form-group col-sm-6">
+							<label for="email" class="col-sm-6">E-mail</label>
 							<div class="input-group">
-								<div class="input-group-prepend">
+								<div class="col-sm-10">
 								<input type="text" id="email" class="form-control" name="email" placeholder="Enter E-mail here..." style="width: 25vw" required="required">
 								</div>
 							</div>
 						</div>
 
-						<div class="form-group">
-							<label for="message">Message</label>
+						<div class="form-group col-sm-6">
+							<label for="message" class="col-sm-6">Message</label>
 							<div class="input-group">
-								<div class="input-group-prepend">
+								<div class="col-sm-10">
 								<textarea id="message" class="form-control" name="message" placeholder="Write something here..." style="width:50vw" required="required"></textarea>
 								</div>
 							</div>
 						</div>
 
 						<!-- reCAPTCHA -->
-						<div class="g-recaptcha" data-sitekey="6LcDZlwUAAAAAN9xUy3yIvS2l58L9cRYOO85vTzt"></div>
+						<div class="g-recaptcha col-sm-6" data-sitekey="6LcDZlwUAAAAAN9xUy3yIvS2l58L9cRYOO85vTzt"></div>
 
-						<button class="btn btn-success" type="submit"><i class="fas fa-paper-plane"></i> Send</button>
-						<button class="btn" type="reset"><i class="fas fa-ban"></i> Reset</button>
+						<button class="btn btn-success col-sm-6" type="submit"><i class="fas fa-paper-plane"></i> Send</button>
+						<button class="btn col-sm-6" type="reset"><i class="fas fa-ban"></i> Reset</button>
 
 
 						</form>
