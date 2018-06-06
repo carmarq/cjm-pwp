@@ -26,7 +26,7 @@
 
 		<!--Google Fonts-->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Julius+Sans+One">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed | Julius+Sans+One">
 
 		<!-- jQuery Form, Additional Methods, Validate -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
@@ -43,7 +43,7 @@
 
 	</head>
 
-	<body>
+	<body class="">
 
 		<header id="navigation">
 		<!--Nav Bar Begins Here-->
@@ -88,9 +88,9 @@
 		</section>
 
 	<section> <!--Projects Section Starts Here-->
-		<div class="projects">
+		<div class="projects shadow">
 			<div class="container">
-				<div class="row">
+				<div class="row ">
 					<div class="col-xs-6 col-sm-12 col-lg-12">
 						<h2 class="text-right">Projects</h2>
 						<p class="text-center">Capstone:
@@ -111,19 +111,19 @@
 
 		<main class="container pb-5" id="contactContainer">
 			<div class="row">
-				<div class="col-xs-6" >
+				<div class="col-xs-6">
 
 		 <!--Contact Section Starts Here-->
-			<form method="post" action="php/mailer.php" class="row shadow" id="contact">
+			<form method="post" action="php/mailer.php" class="form-horizontal" id="contact">
 				<div class="col-xs-6 form">
-					<h2>Contact</h2>
+					<h2 class="text-left">Contact</h2>
 						</div>
 
 						<div class="form-group">
-							<label for="name">Name</label>
+							<label for="name" class="col-sm-2">Name</label>
 							<div class="input-group">
-								<div class="input-group-prepend">
-							<input type="text" name="name "id="name" class="form-control" placeholder="Enter name here..."
+								<div class="col-sm-10">
+							<input type="text" name="name" id="name" class="form-control" placeholder="Enter name here..."
 									 style="width:25vw" required="required">
 								</div>
 							</div>

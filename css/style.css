@@ -34,7 +34,9 @@ p {
 
 /*Navbar*/
 #navfont {
-	font-family: 'Julius Sans One', sans-serif;
+	font-family: 'Julius Sans One','Barlow Semi Condensed', sans-serif;
+
+
 
 }
 
@@ -82,4 +84,8 @@ input[type=submit], input[type="reset"] {
 #contactContainer #navbarSupportedContent {
 	justify-content: center;
 
+}
+
+#name,#email, #message {
+	font-size: 2rem;
 }
