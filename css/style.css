@@ -59,18 +59,6 @@ p {
 	align-self: center;
 }
 
-.bottom {
-}
-
-
-.fa {
-	font-size: 3rem;
-}
-
-.fa-twitter-square, .fa-linkedin, .fa-github-square, .fa-envelope-square {
-	float: right;
-	color: black;
-}
 
 /*Style inputs with type="text", select elements and text areas */
 input[type=submit], input[type="reset"] {
