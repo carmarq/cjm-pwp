@@ -23,7 +23,7 @@ p {
 
 /*Nav-bar*/
 .nav {
-	color: #476b6b;
+	color: white;
 	padding: 1rem;
 	font-family: 'Julius Sans One', sans-serif;
 }
@@ -31,7 +31,7 @@ p {
 .navbar-brand {
 	font-size: 3vw;
 	color: #476b6b;
-	font-family: 'Julius Sans One', sans-serif;
+	font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 #navfont {
