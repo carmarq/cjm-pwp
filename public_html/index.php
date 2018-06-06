@@ -26,6 +26,7 @@
 
 		<!--Google Fonts-->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+		<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
 
 		<!-- jQuery Form, Additional Methods, Validate -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
@@ -110,7 +111,7 @@
 
 		<main class="container pb-5" id="contactContainer">
 			<div class="row">
-				<div class="col-xs-6">
+				<div class="col-xs-6" >
 
 		 <!--Contact Section Starts Here-->
 			<form method="post" action="php/mailer.php" class="row" id="contact">
@@ -122,7 +123,7 @@
 							<label for="name">Name</label>
 							<div class="input-group">
 								<div class="input-group-prepend">
-							<input type="text" id="name" class="form-control" placeholder="Enter name here..."
+							<input type="text" name="name "id="name" class="form-control" placeholder="Enter name here..."
 									 style="width:25vw" required="required">
 								</div>
 							</div>
@@ -132,7 +133,7 @@
 							<label for="email">E-mail</label>
 							<div class="input-group">
 								<div class="input-group-prepend">
-								<input type="text" id="email" class="form-control" placeholder="Enter E-mail here..." style="width: 25vw" required="required">
+								<input type="text" id="email" class="form-control" name="email" placeholder="Enter E-mail here..." style="width: 25vw" required="required">
 								</div>
 							</div>
 						</div>
