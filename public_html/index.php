@@ -26,7 +26,7 @@
 
 		<!--Google Fonts-->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
-		<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Julius+Sans+One">
 
 		<!-- jQuery Form, Additional Methods, Validate -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
@@ -49,7 +49,7 @@
 		<!--Nav Bar Begins Here-->
 			<div class="container">
 				<nav class="navbar navbar-expand-md navbar-light">
-					<a class="navbar-brand" href="#">Carlos Marquez</a>
+					<a class="navbar-brand" id="navfont">Carlos Marquez</a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>

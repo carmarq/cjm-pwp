@@ -4,7 +4,7 @@ body { width: 100%;}
 
 body {
 	background-color: ghostwhite;
-	font-family: 'Quicksand', sans-serif
+	font-family: 'Quicksand', sans-serif;
 }
 h1 {
 	font-size: 3vw;
@@ -31,7 +31,8 @@ p {
 }
 
 /*Navbar*/
-#navigation {
+#navfont {
+	font-family: 'Julius Sans One', sans-serif;
 
 }
 
