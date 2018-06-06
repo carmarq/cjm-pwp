@@ -26,8 +26,8 @@
 
 		<!--Google Fonts-->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed | Julius+Sans+One">
-
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Julius+Sans+One">
 		<!-- jQuery Form, Additional Methods, Validate -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
@@ -120,7 +120,7 @@
 						</div>
 
 						<div class="form-group col-sm-6">
-							<label for="name" class="col-sm-6">Name</label>
+							<label for="name" class="col-sm-6" id="formfont">Name</label>
 							<div class="input-group">
 								<div class="col-sm-10">
 							<input type="text" name="name" id="name" class="form-control" placeholder="Enter name here..."
@@ -130,7 +130,7 @@
 						</div>
 
 						<div class="form-group col-sm-6">
-							<label for="email" class="col-sm-6">E-mail</label>
+							<label for="email" class="col-sm-6" id="formfont">E-mail</label>
 							<div class="input-group">
 								<div class="col-sm-10">
 								<input type="text" id="email" class="form-control" name="email" placeholder="Enter E-mail here..." style="width: 25vw" required="required">
@@ -139,7 +139,7 @@
 						</div>
 
 						<div class="form-group col-sm-6">
-							<label for="message" class="col-sm-6">Message</label>
+							<label for="message" class="col-sm-6" id="formfont">Message</label>
 							<div class="input-group">
 								<div class="col-sm-10">
 								<textarea id="message" class="form-control" name="message" placeholder="Write something here..." style="width:50vw" required="required"></textarea>

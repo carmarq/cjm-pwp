@@ -3,43 +3,44 @@ html { display: flex;}
 body { width: 100%;}
 
 body {
-	background-color: ghostwhite;
-	font-family: 'Quicksand', sans-serif;
+	background-color: #669999;
 }
 h1 {
 	font-size: 3vw;
 	color: black;
+	font-family: "Julius Sans One", sans-serif;
 }
 h2 {
 	font-size: 3vw;
 	color: black;
+	font-family: "Julius Sans One", sans-serif;
 }
 p {
 	font-size: 2vw;
 	color: black;
+	font-family: "Quicksand", sans-serif;
 }
 
-/*Nav Bar*/
+/*Nav-bar*/
 .nav {
-	color: black;
+	color: #476b6b;
 	padding: 1rem;
-}
-
-.projects, .dmscus {
+	font-family: 'Julius Sans One', sans-serif;
 }
 
 .navbar-brand {
 	font-size: 3vw;
+	color: #476b6b;
+	font-family: 'Julius Sans One', sans-serif;
 }
 
-/*Navbar*/
 #navfont {
-	font-family: 'Julius Sans One','Barlow Semi Condensed', sans-serif;
-
-
-
+	font-family: 'Julius Sans One', sans-serif;
 }
 
+#contactContainer #navbarSupportedContent {
+	justify-content: center;
+}
 
 /*About-Me*/
 .dmscus {
@@ -69,15 +70,14 @@ input[type=submit], input[type="reset"] {
 	margin-top: 5px;
 }
 
-#contactContainer #navbarSupportedContent {
-	justify-content: center;
-
-}
-
 #name,#email, #message {
 	font-size: 2vw;
 }
 
 label {
 	font-size: 3vw;
+}
+
+#formfont {
+	font-size: 2vw;
 }
