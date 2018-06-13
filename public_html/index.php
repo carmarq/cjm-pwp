@@ -43,7 +43,7 @@
 
 	</head>
 
-	<body class="">
+	<body>
 
 		<header id="navigation">
 		<!--Nav Bar Begins Here-->
@@ -109,56 +109,55 @@
 	</section>
 
 
-		<main class="container pb-5" id="contactContainer">
-			<div class="row">
-				<div class="col-sm-6">
-
-		 <!--Contact Section Starts Here-->
-			<form method="post" action="php/mailer.php" class="form-horizontal" id="contact">
-				<div class="col-sm-12 form">
+		<!--Contact Section Starts Here-->
+		<section>
+			<div id="join-container" class="pt-lg-6 pb-lg-6 pt-5 contact-sty shadow">
+				<div class="container">
 					<h2 class="text-left">Contact</h2>
-						</div>
+					<form id="dmsc-form" action="php/mailer.php" method="post">
 
-						<div class="form-group col-sm-6">
-							<label for="name" class="col-sm-6 formfont">Name</label>
-							<div class="input-group">
-								<div class="col-sm-10">
-							<input type="text" name="name" id="name" class="form-control" placeholder="Enter name here..."
-									 style="width:25vw" required="required">
-								</div>
+						<div class="form-group row pt-lg-5 pb-lg-3 pt-5">
+							<div class="col-sm-12 col-md-6 offset-md-3">
+								<label for="contactName" class="formfont">Name</label>
+								<input type="text" class="form-control mb-4" id="dmscName" name="dmscName" placeholder="Enter name here..." required="required">
+							</div>
+
+							<div class="col-sm-12 col-md-6 offset-md-3">
+								<label for="email" class="formfont">Email Address</label>
+								<input type="email" class="form-control mb-4" id="dmscEmail" name="dmscEmail" placeholder="Your email address..." required="required">
+							</div>
+
+							<div class="col-sm-12 col-md-6 offset-md-3">
+								<label for="message" class="formfont">Message</label>
+								<textarea class="form-control" id="dmscMessage" name="dmscMessage" rows="4" placeholder="Type your message here..."></textarea>
 							</div>
 						</div>
 
-						<div class="form-group col-sm-6">
-							<label for="email" class="col-sm-6 formfont">E-mail</label>
-							<div class="input-group">
-								<div class="col-sm-10">
-								<input type="text" id="email" class="form-control" name="email" placeholder="Enter E-mail here..." style="width: 25vw" required="required">
-								</div>
-							</div>
+						<!--reCAPTCHA-->
+						<div class="d-flex justify-content-center">
+							<div class="g-recaptcha" data-sitekey="6LcDZlwUAAAAAN9xUy3yIvS2l58L9cRYOO85vTzt"></div>
 						</div>
 
-						<div class="form-group col-sm-6">
-							<label for="message" class="col-sm-6 formfont">Message</label>
-							<div class="input-group">
-								<div class="col-sm-10">
-								<textarea id="message" class="form-control" name="message" placeholder="Write something here..." style="width:50vw" required="required"></textarea>
-								</div>
-							</div>
+						<div class="text-center">
+							<button class="btn btn-success btn-lg mt-3 mb-3 text-center" type="submit">Submit</button>
+							<button class="btn btn-lg mt-3 mb-3 text-center" type="reset">Reset</button>
 						</div>
 
-						<!-- reCAPTCHA -->
-						<div class="g-recaptcha col-sm-6" data-sitekey="6LcDZlwUAAAAAN9xUy3yIvS2l58L9cRYOO85vTzt"></div>
-
-						<button class="btn btn-success col-sm-6" type="submit"><i class="fas fa-paper-plane"></i> Send</button>
-						<button class="btn col-sm-6" type="reset"><i class="fas fa-ban"></i> Reset</button>
-
-
-						</form>
-					<div id="output-area"></div>
-				<!--Contact Section Ends here-->
+					</form>
+					<div class="row">
+						<div class="col-xs-6">
+							<div id="output-area"></div>
+						</div>
+					</div>
 				</div>
 			</div>
-		</main>
+	</section>
+
+		<footer class="py-4 text-black">
+			<div class="container">
+				<a class="text-black" href="https://www.linkedin.com/in/carjmarq/" target="_blank">LinkedIn</a> | <a class="text-black" href="https://github.com/carmarq" target="_blank">GitHub</a> | <a class="text-black" href="https://twitter.com/carjmarq" target="_blank">Twitter</a>
+			</div>
+		</footer>
+
 	</body>
 </html>

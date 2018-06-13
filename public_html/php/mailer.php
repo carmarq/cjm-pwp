@@ -30,11 +30,11 @@ try {
 	 * so we're using the $_POST superglobal.
 	 **/
 
-	$name = filter_input(INPUT_POST, "name", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$name = filter_input(INPUT_POST, "dmscName", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 
-	$email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
+	$email = filter_input(INPUT_POST, "dmscEmail", FILTER_SANITIZE_EMAIL);
 
-	$message = filter_input(INPUT_POST, "message", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$message = filter_input(INPUT_POST, "dmscMessage", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 	$subject = "Message sent";
 
 	// create Swift message
@@ -99,6 +99,5 @@ try {
 	echo "<div class=\"alert alert-success\" role=\"alert\">Email successfully sent.</div>";
 
 } catch(Exception $exception) {
-	var_dump($MAIL_RECIPIENTS);
 	echo "<div class=\"alert alert-danger\" role=\"alert\"> Unable to send email: " . $exception->getMessage() . "</div>";
 }
