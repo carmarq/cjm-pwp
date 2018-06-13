@@ -47,11 +47,11 @@
 
 		<header id="navigation">
 		<!--Nav Bar Begins Here-->
-			<div class="container">
+			<div class="container nav-font">
 				<nav class="navbar navbar-expand-md navbar-light">
 					<a class="navbar-brand" id="navfont">Carlos Marquez</a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
+						<span class="navbar-toggler-icon nav-fon"></span>
 					</button>
 
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -74,11 +74,11 @@
 		</header>
 
 		<section> <!--About Me Section Starts Here-->
-			<div class="dmscus shadow">
+			<div class="dmscus">
 				<div class="container">
 					<div class="row">
 						<div class= "col-sm-12">
-							<p class="text-center">
+							<p class="text-center para-font">
 							Hi, I'm Carlos. I'm enrolled in a full-stack web development boot camp!! This page will be updated as time passes to document my work. Please look at my projects down below and feel free to contact me as well. <br> Thank you!
 							</p>
 						</div>
@@ -93,12 +93,12 @@
 				<div class="row ">
 					<div class="col-sm-12">
 						<h2 class="text-right">Projects</h2>
-						<p class="text-center">Capstone:
+						<p class="text-center para-font">Capstone:
 						<br>
 						For about two months I worked with friends on an application for the capstone of my coding boot camp. The application lets users look up Albuquerque breweries based on specific search criteria for preference of drink. Those same breweries can moderate their own page, too.
 						</p>
 						<br>
-						<p class="text-center">Knights of Node:
+						<p class="text-center para-font">Knights of Node:
 						<br>
 						From May 18th - May 20th, 2018 I participated in Angular Attack, a 48-hour hack-a-thon. A team of up to four has 48 hours to make any Angular application they want. The application that we made was a game where the player would take the role as the Angular knight to fight React dragons.
 						</p>
@@ -111,7 +111,7 @@
 
 		<!--Contact Section Starts Here-->
 		<section>
-			<div id="join-container" class="pt-lg-6 pb-lg-6 pt-5 contact-sty shadow">
+			<div id="join-container" class="pt-lg-6 pb-lg-6 pt-5 contact-sty">
 				<div class="container">
 					<h2 class="text-left">Contact</h2>
 					<form id="dmsc-form" action="php/mailer.php" method="post">
@@ -153,8 +153,8 @@
 			</div>
 	</section>
 
-		<footer class="py-4 text-black">
-			<div class="container">
+		<footer class="py-4 text-black foot-font text-center">
+			<div class="container ">
 				<a class="text-black" href="https://www.linkedin.com/in/carjmarq/" target="_blank">LinkedIn</a> | <a class="text-black" href="https://github.com/carmarq" target="_blank">GitHub</a> | <a class="text-black" href="https://twitter.com/carjmarq" target="_blank">Twitter</a>
 			</div>
 		</footer>

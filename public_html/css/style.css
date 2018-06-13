@@ -4,20 +4,21 @@ body { width: 100%;}
 
 body {
 	background-color: #669999;
+	font-size: 2rem;
 }
 h1 {
-	font-size: 3vw;
+	font-size: 1vw;
 	color: black;
-	font-family: "Julius Sans One", sans-serif;
+	font-family: "Julius Sans One", "Arial", sans-serif;
 }
 h2 {
-	font-size: 3vw;
+	font-size: 2rem;
 	color: black;
-	font-family: "Julius Sans One", sans-serif;
+	font-family: "Julius Sans One", "Arial", sans-serif;
 }
 p {
 	color: black;
-	font-family: "Quicksand", sans-serif;
+	font-family: "Quicksand", "Arial", sans-serif;
 }
 
 /*Nav-bar*/
@@ -27,10 +28,10 @@ p {
 	font-family: 'Julius Sans One', sans-serif;
 }
 
-.navbar-brand {
-	font-size: 3vw;
+.navbar-brand, .nav-font {
+	font-size: 1.5rem;
 	color: #476b6b;
-	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-family: "Julius Sans One", "Arial", sans-serif;
 }
 
 #navfont {
@@ -69,10 +70,6 @@ input[type=submit], input[type="reset"] {
 	margin-top: 5px;
 }
 
-.name, .email, .message {
-	font-size: 2vw;
-}
-
 label {
 	font-size: 3vw;
 }
@@ -80,4 +77,10 @@ label {
 
 .text-black {
 	color: black;
+}
+
+.formfont, .para-font, .foot-font{
+font-family: "Julius Sans One", "Arial", sans-serif;
+font-size: 2rem;
+
 }
