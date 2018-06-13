@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,7 +11,7 @@
 		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
 		<!--CSS Stylesheet-->
-		<link rel="stylesheet" href="../css/style.css" type="text/css">
+		<link rel="stylesheet" href="css/style.css" type="text/css">
 
 		<!--JQuery first, Popper.js second, and Bootstrap Js  third-->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -120,7 +120,7 @@
 						</div>
 
 						<div class="form-group col-sm-6">
-							<label for="name" class="col-sm-6" id="formfont">Name</label>
+							<label for="name" class="col-sm-6 formfont">Name</label>
 							<div class="input-group">
 								<div class="col-sm-10">
 							<input type="text" name="name" id="name" class="form-control" placeholder="Enter name here..."
@@ -130,7 +130,7 @@
 						</div>
 
 						<div class="form-group col-sm-6">
-							<label for="email" class="col-sm-6" id="formfont">E-mail</label>
+							<label for="email" class="col-sm-6 formfont">E-mail</label>
 							<div class="input-group">
 								<div class="col-sm-10">
 								<input type="text" id="email" class="form-control" name="email" placeholder="Enter E-mail here..." style="width: 25vw" required="required">
@@ -139,7 +139,7 @@
 						</div>
 
 						<div class="form-group col-sm-6">
-							<label for="message" class="col-sm-6" id="formfont">Message</label>
+							<label for="message" class="col-sm-6 formfont">Message</label>
 							<div class="input-group">
 								<div class="col-sm-10">
 								<textarea id="message" class="form-control" name="message" placeholder="Write something here..." style="width:50vw" required="required"></textarea>
