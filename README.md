@@ -61,3 +61,13 @@ Unfortunately since this project is incomplete, your PWP ony qualifies for [Tier
 - Milestone 2a - 20%: Tier II 20(0.2) = 4
 - Milestone 2b - 10%: Tier IV 40(0.1) = 4
 - Milestone 3 - 50%: Tier I 10(0.5) = 5
+
+#### Updated PWP Feedback
+Thanks for making some of the technical fixes stated above, and fixing the CSS issue. Keep challenging yourself in the future - there was a lot of room to expand upon what you had here. With the technical fixes done, your site is appropriate for live deployment now. Here's your upgraded score: 
+
+Your PWP passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). Your cumulative PWP score including all Milestones is 22/40 points (55%). 20/40 is considered passing at a "C".
+
+- Milestone 1 - 20%: Tier II 20(0.2) = 4
+- Milestone 2a - 20%: Tier II 20(0.2) = 4
+- Milestone 2b - 10%: Tier IV 40(0.1) = 4
+- Milestone 3 - 50%: Tier II 20(0.5) = 10
